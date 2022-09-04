@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    text-align: center;
+    margin: 15px 15px;
+    font-family: 'Amatic SC', cursive;
+    width: 70vw;
+    height: 15vh;
+    background-color: #facc15;
+    padding-bottom: 5px;
+    font-size: 40px;
+    border-radius: 0 35px 0 35px;
+}
+
+ .main {
+    margin-left: 15px;
+    max-width: 80vm;
+}
+#txt-input{
+    margin-top:10px ;
+    border: 2px solid black;
+    padding: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 50%;
+    height: 20vh;
+    font-size: large;
+}
+#btn-translate{
+    background-color: #facc15;
+    font-family: 'Amatic SC', cursive;
+    margin-top:10px;
+    width: 150px;
+    height: 35px;
+    }
+
+#output{
+    margin-top: 15px;
+    font-family: 'Amatic SC', cursive;
+    }
+#txt-output{
+    margin-top:10px ;
+    border: 2px solid black;
+    padding: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 40%;
+    height: 20vh;
+    font-size: large;
+
+}
+footer{
+    bottom: 0;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #facc15;
+    height: 15vh;
+    border-radius: 35px 0 35px 0;
+
+}
+.connect{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+}
+footer ul li{
+    display: inline;
+
+}
+footer ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    padding-left: 12px;
+}
