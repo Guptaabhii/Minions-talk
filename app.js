@@ -13,7 +13,7 @@ function errorHandler(error){
     alert("somethis  wrong the server, sorry for the inconvenience ")
 }
 function clickHandler(){
-    var inputText = txtInput.Value;
+    var inputText = txtInput.value;
 
 fetch(getTranslationURl(inputText))
 .then(response => response.json())
